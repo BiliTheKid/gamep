@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "install": "npm install",
     "dev": "vite",
-    "build": "node node_modules/vite/bin/vite.js build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -14,5 +15,8 @@
   },
   "dependencies": {
     "pixi.js": "^7.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
